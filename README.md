@@ -6,5 +6,6 @@ Hopfield Networks are autoassociative networks with symmentric weights. This mea
 
 Hopfield networks use hebb's rule to learn the weights. Their nodes have a bipolar coding {-1,1} and has a `sign` activation function. The different update methods are also implemented in the code: synchronous update, asynchronous update and random update. 
 
+`images_example.py` shows the performance of Hopfield Networks. The example network is trained with three images and it shows how the network is able to reconstract noisy and partial versions of the original images.   
 
 
